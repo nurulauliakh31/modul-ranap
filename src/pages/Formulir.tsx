@@ -37,13 +37,13 @@ const Formulir = () => {
               </div>
             </div>
             <div className="sm:col-span-6">
-              <label htmlFor="about" className="block text-sm/6 font-medium text-white">
+              <label htmlFor="diagnosa" className="block text-sm/6 font-medium text-white">
                 Diagnosa Masuk
               </label>
               <div className="mt-2">
                 <textarea
-                  id="about"
-                  name="about"
+                  id="diagnosa"
+                  name="diagnosa"
                   rows={3}
                   className="block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
                   defaultValue={''} required
@@ -51,46 +51,45 @@ const Formulir = () => {
               </div>
             </div>
             <div className="sm:col-span-4">
-              <label htmlFor="nik" className="block text-sm/6 font-medium text-white">
+              <label htmlFor="date" className="block text-sm/6 font-medium text-white">
                 Tanggal Masuk
               </label>
               <div className="mt-2">
                 <div className="flex items-center rounded-md bg-white/5 pl-3 outline-1 -outline-offset-1 outline-white/10 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-500">
                   <input
-                    id="nik" name="nik" max-length="5" type="date" placeholder="Masukan angka"
+                    id="date" name="date" max-length="5" type="date"
                     className="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-white placeholder:text-gray-500 focus:outline-none sm:text-sm/6 max-length:16" required
                   />
                 </div>
               </div>
             </div>
             <div className="sm:col-span-6">
-              <label htmlFor="username" className="block text-sm/6 font-medium text-white">
+              <label htmlFor="pjawab" className="block text-sm/6 font-medium text-white">
                 Dokter Penanggung Jawab
               </label>
               <div className="mt-2">
                 <div className="flex items-center rounded-md bg-white/5 pl-3 outline-1 -outline-offset-1 outline-white/10 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-500">
                   <input
-                    id="username" name="username" type="text" placeholder="Masukan Nama"
+                    id="pjawab" name="pjawab" type="text" placeholder="Masukan Dokter Penanggung Jawab"
                     className="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-white placeholder:text-gray-500 focus:outline-none sm:text-sm/6" required
                   />
                 </div>
               </div>
             </div>
             <div className="sm:col-span-6">
-              <label htmlFor="username" className="block text-sm/6 font-medium text-white">
+              <label htmlFor="ruangan" className="block text-sm/6 font-medium text-white">
                 Ruangan
               </label>
               <div className="mt-2">
                 <div className="flex items-center rounded-md bg-white/5 pl-3 outline-1 -outline-offset-1 outline-white/10 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-500">
                   <input
-                    id="username" name="username" type="text" placeholder="Masukan Nama"
+                    id="ruangan" name="ruangan" type="text" placeholder="Masukan Ruangan"
                     className="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-white placeholder:text-gray-500 focus:outline-none sm:text-sm/6" required
                   />
                 </div>
               </div>
             </div>
             </div>
-            
             
             <div className="mt-6 flex items-center justify-end gap-x-6">
     <button type="button" className="text-sm/6 font-semibold text-white">Cancel</button>
