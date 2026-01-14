@@ -4,6 +4,8 @@ import './index.css'
 import App from './App.tsx'
 import { BrowserRouter } from 'react-router'
 
+//createRoot : untuk menentukan elemen utama yang menjadi container apk  
+//select elemen id root
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>

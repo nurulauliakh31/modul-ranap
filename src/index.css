@@ -15,7 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -28,7 +28,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 1320px;
   min-height: 40vh;
 }
 
@@ -67,4 +67,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
